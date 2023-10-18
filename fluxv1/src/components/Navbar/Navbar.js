@@ -1,22 +1,27 @@
 import React from 'react'
 import './Navbar.css';
-
+import { Link } from 'react-router-dom';
 
 const Navbar = () => {
-    
+ 
   return (
     <>
 
-    <div className="navbarc">
-    <h1 className="h1t"><span>FluxV1</span></h1>
-
-    <form className="form" >
-                    <input className="search" type="text" id="search"/>
-                    <button className="submit-search" type="submit"><i className="fa fa-search"></i></button>
-                </form>
-      <button className='navbar_b1'>Sign In</button>
-
-      <button className='navbar_b2'>Sign Up</button>
+<div className=''>
+      <Link to='/'>
+      <h1 className=''>FLUXV1</h1>
+      </Link>
+        <div>
+        <Link to='/Login'>
+        <button className='logg'>Sign In</button>
+        </Link>
+        <Link to='/signup'>
+        <button className='signn'>Sign Up</button>
+        </Link>
+        
+      </div>
+      
+      
     </div>
       
     </>
@@ -32,4 +37,4 @@ const Navbar = () => {
                 </form>
             </header> */}
 
-export default Navbar
+export default Navbar;
