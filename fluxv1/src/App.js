@@ -5,6 +5,7 @@ import Homepage from "./Pages/Homepage/Homepage";
 import Login from './Pages/Login';
 import Signup from './Pages/Signup';
 import { AuthContextProvider } from "./context/Authcontext";
+import Footer from "./components/footer/footer";
 
 
 function App() 
@@ -18,6 +19,7 @@ function App()
       <Route path='/login' element={<Login/>}></Route>
       <Route path='/Homepage' element={<Homepage/>}></Route>
       </Routes>
+      <Footer/>
     </AuthContextProvider>
       
     </>
