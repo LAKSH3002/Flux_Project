@@ -1,0 +1,74 @@
+.log-heading{
+    font-size: 45px;
+    padding-left: 40px;
+    padding-top: 30px;
+    color: whitesmoke;
+}
+.Box{
+    align-items: center;
+    background-color: rgb(14, 67, 14);
+    height: 600px;
+    width: 650px;
+    margin-left: 500px;
+    margin-top: 20px;
+    border-radius: 40px;
+}
+.tf1{
+    margin-left: 40px;
+    background-color: rgb(53, 53, 53);
+    font-size: 22px;
+    height: 55px;
+    text-align: start;
+    width: 550px;
+    border-radius: 10px;
+    border: solid transparent;
+    color: white;
+}
+.tf2{
+    margin-left: 40px;
+    background-color: rgb(53, 53, 53);
+    font-size: 22px;
+    height: 55px;
+    text-align: start;
+    margin-top: 20px;
+    width: 550px;
+    border-radius: 10px;
+    border: solid transparent;
+    color: white;
+}
+.btn1{
+    height: 55px;
+    width: 550px;
+    margin-top: 30px;
+    margin-left: 40px;
+    font-size: 30px;
+    background-color: red;
+    color: white;
+    font-style: italic;
+    font-weight: 700;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.cb1{
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 20px;
+}
+.cb2{
+    margin-left: 295px;
+}
+.line{
+    display: flex;
+    margin-left: 30px;
+    font-size: 21px;
+}
+.lastline{
+    text-align: center;
+    margin-top: 40px;
+    font-size: 26px;
+    font-style: italic;
+}
+.hov{
+    color: yellow;
+    cursor: pointer;
+}

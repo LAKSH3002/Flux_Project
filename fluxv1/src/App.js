@@ -4,7 +4,7 @@ import { Route, Routes } from 'react-router-dom';
 import Homepage from "./Pages/Homepage/Homepage";
 import Login from './Pages/Login';
 import Signup from './Pages/Signup';
-import { AuthContextProvider } from "./components/context/Authcontext";
+import { AuthContextProvider } from "./context/Authcontext";
 
 
 function App() 
@@ -14,9 +14,9 @@ function App()
     <AuthContextProvider>
     <Navbar/>
       <Routes>
-      <Route path='/' element={<Homepage/>}/>
+      <Route path='/' element={<Signup/>}/>
       <Route path='/login' element={<Login/>}></Route>
-      <Route path='/signup' element={<Signup/>}></Route>
+      <Route path='/Homepage' element={<Homepage/>}></Route>
       </Routes>
     </AuthContextProvider>
       

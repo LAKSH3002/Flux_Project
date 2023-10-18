@@ -1,16 +1,37 @@
 import React from 'react'
 import './Navbar.css';
-import { Link } from 'react-router-dom';
+import { Link ,useNavigate} from 'react-router-dom';
+import { UserAuth } from '../../context/Authcontext';
 
 const Navbar = () => {
  
+  const {user, logOut} = UserAuth();
+  const navigate = useNavigate();
+
+  const handleLogOut = async () =>{
+    try{
+      await logOut()
+      navigate('/')
+    }catch(error)
+    {
+      console.log(error)
+    }
+  };
+
   return (
     <>
 
-<div className=''>
+<div className='Navigation'>
+  
       <Link to='/'>
-      <h1 className=''>FLUXV1</h1>
+      <h1 className='heading'><span>FLUXV1</span></h1>
       </Link>
+      {user?.email?(
+        <div>
+        <button onClick = {handleLogOut} className='logoutbtn'>LogOut</button>
+        
+      </div>
+      ):(
         <div>
         <Link to='/Login'>
         <button className='logg'>Sign In</button>
@@ -20,8 +41,7 @@ const Navbar = () => {
         </Link>
         
       </div>
-      
-      
+      )}
     </div>
       
     </>
