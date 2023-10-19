@@ -3,7 +3,7 @@ import axios from "axios";
 import Movie from "../../components/Movie";
 import Youtube from "react-youtube";
 import Navbar from "../../components/Navbar/Navbar";
-
+import './Homepage.css';
 function Homepage() 
 {
   const MOVIE_API = "https://api.themoviedb.org/3/";
