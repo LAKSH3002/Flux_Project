@@ -1,5 +1,5 @@
 .log-heading{
-    font-size: 45px;
+    font-size: 35px;
     padding-left: 40px;
     padding-top: 30px;
     color: whitesmoke;
@@ -7,7 +7,7 @@
 .Box{
     align-items: center;
     background-color: rgb(14, 67, 14);
-    height: 600px;
+    height: 500px;
     width: 650px;
     margin-left: 500px;
     margin-top: 20px;
@@ -16,7 +16,7 @@
 .tf1{
     margin-left: 40px;
     background-color: rgb(53, 53, 53);
-    font-size: 22px;
+    font-size: 18px;
     height: 55px;
     text-align: start;
     width: 550px;
@@ -27,7 +27,7 @@
 .tf2{
     margin-left: 40px;
     background-color: rgb(53, 53, 53);
-    font-size: 22px;
+    font-size: 18px;
     height: 55px;
     text-align: start;
     margin-top: 20px;
@@ -37,11 +37,11 @@
     color: white;
 }
 .btn1{
-    height: 55px;
+    height: 45px;
     width: 550px;
     margin-top: 30px;
     margin-left: 40px;
-    font-size: 30px;
+    font-size: 25px;
     background-color: red;
     color: white;
     font-style: italic;
