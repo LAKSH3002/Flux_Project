@@ -24,7 +24,7 @@ body {
 .poster {
   background-size: cover;
   background-position: top center;
-  min-height: 600px;
+  min-height: 100px;
   display: flex;
   align-items: flex-end;
   padding-bottom: 50px;
@@ -52,7 +52,7 @@ h1 {
   padding-top: 80px;
   padding-bottom: 80px;
   display: grid;
-  margin-left: 100px;
+  margin-left: 10px;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr ;
   gap: 70px;
 }
@@ -103,7 +103,7 @@ h1 {
 
 .movie img {
   height: 305px;
-  max-width: 550px;
+  max-width: 50px;
 }
 
 .movie-infos {

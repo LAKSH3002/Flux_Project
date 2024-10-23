@@ -15,9 +15,9 @@ function App()
     <AuthContextProvider>
     <Navbar/>
       <Routes>
-      <Route path='/' element={<Signup/>}/>
+      <Route path='/' element={<Homepage/>}/>
       <Route path='/login' element={<Login/>}></Route>
-      <Route path='/Homepage' element={<Homepage/>}></Route>
+      <Route path='/signup' element={<Signup/>}></Route>
       </Routes>
       <Footer/>
     </AuthContextProvider>

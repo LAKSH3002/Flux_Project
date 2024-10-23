@@ -95,8 +95,8 @@ function Homepage()
                     className={"youtube amru"}
                     containerClassName="youtube-container-amru"
                     opts={{
-                      width: "1550px",
-                      height: "700px",
+                      width: "1280px",
+                      height: "500px",
                       playerVars: {
                         autoplay: 1,
                         controls: 0,

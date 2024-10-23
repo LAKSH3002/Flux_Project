@@ -11,7 +11,7 @@ export default function Footer() {
         </div>
         <div className="copyright-section">
           <span>© FluxV1</span>
-          <span>Developed By: Laksh & Atharva</span>
+          <span>Developed By: Laksh, Veerendra, Manav</span>
         </div>
       </div>
 
