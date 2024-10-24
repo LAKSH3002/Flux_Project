@@ -18,7 +18,7 @@ const Login = () => {
       navigate("/");
     } catch (error) {
       console.log(error);
-      SetError(error.message);
+      SetError("Incorrect username or password");
     }
   };
 
