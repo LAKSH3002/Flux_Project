@@ -1,13 +1,15 @@
-import React from 'react'
-import './footer.css'
+import React from "react";
+import "./footer.css";
 
 export default function Footer() {
   return (
     <>
       <div className="footer">
         <div className="app-name">
-          <p className='app-name-inner'>FluxV1</p>
-          <p className='footer-info'>An OTT Platform With The Concept of Pay As Per View</p>
+          <p className="app-name-inner">Flictionary</p>
+          <p className="footer-info">
+            An OTT Platform With The Concept of Pay As Per View
+          </p>
         </div>
         <div className="copyright-section">
           <span>© FluxV1</span>
@@ -26,5 +28,5 @@ export default function Footer() {
         </ul>
       </div> */}
     </>
-  )
+  );
 }

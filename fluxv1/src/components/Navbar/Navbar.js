@@ -24,7 +24,7 @@ const Navbar = () => {
 <div className='Navigation'>
   
       <Link to='/'>
-      <h1 className='heading'><span>FLUXV1</span></h1>
+      <h1 className='heading'><span>Flictionary</span></h1>
       </Link>
       {user?.email?(
         <div>

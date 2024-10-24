@@ -1,27 +1,24 @@
 import "./App.css";
-import Navbar from './components/Navbar/Navbar';
-import { Route, Routes } from 'react-router-dom';
+import Navbar from "./components/Navbar/Navbar";
+import { Route, Routes } from "react-router-dom";
 import Homepage from "./Pages/Homepage/Homepage";
-import Login from './Pages/Login';
-import Signup from './Pages/Signup';
+import Login from "./Pages/Login";
+import Signup from "./Pages/Signup";
 import { AuthContextProvider } from "./context/Authcontext";
 import Footer from "./components/footer/footer";
 
-
-function App() 
-{
+function App() {
   return (
     <>
-    <AuthContextProvider>
-    <Navbar/>
-      <Routes>
-      <Route path='/' element={<Homepage/>}/>
-      <Route path='/login' element={<Login/>}></Route>
-      <Route path='/signup' element={<Signup/>}></Route>
-      </Routes>
-      <Footer/>
-    </AuthContextProvider>
-      
+      <AuthContextProvider>
+        <Navbar />
+        <Routes>
+          <Route path="/" element={<Signup />} />
+          <Route path="/login" element={<Login />}></Route>
+          <Route path="/homepage" element={<Homepage />}></Route>
+        </Routes>
+        <Footer />
+      </AuthContextProvider>
     </>
   );
 }
