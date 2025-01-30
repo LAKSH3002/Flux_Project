@@ -8,6 +8,7 @@ const Signup = () => {
   const [password, setPassword] = useState("");
   const { user, SignUp } = UserAuth();
   const navigate = useNavigate();
+  const [error, SetError] = useState("");
 
   const handleSubmit = async (e) => {
     e.preventDefault();
@@ -16,6 +17,7 @@ const Signup = () => {
       navigate("/");
     } catch (error) {
       console.log(error);
+      SetError("User already exists");
     }
   };
   return (
